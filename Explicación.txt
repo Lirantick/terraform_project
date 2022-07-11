@@ -1,0 +1,9 @@
+Cada una de las carpetas hace referencia al proyecto, sin embargo en "modulos" encontramos una aplicación utilizando modulos, mientras que, en AWS encontramos los scripts para levantar
+el proyecto sin utilización de modulos.
+
+Fallos:
+
+La implementación con modulos no parece funcionar, al intentar levantar las instancias tanto ec2 como rds dice no encontrar los security groups y no levanta correctamente, por mi parte
+verifique a través de la consola de AWS si los SG existían y estaban en la VPC correcta y si, lo están, sin embargo parece no poder encontrarlos terraform, en la carpeta pruebas hay
+una captura mostrando esto mismo.
+
